@@ -10,6 +10,7 @@ import com.route.myapplication.utils.Constants
 
 class SuraDetailsActivity : AppCompatActivity() {
     private lateinit var binding: ActivitySuraDetailsBinding
+    @Suppress("DEPRECATION")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivitySuraDetailsBinding.inflate(layoutInflater)
