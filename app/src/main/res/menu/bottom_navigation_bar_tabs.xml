@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/btn_quran"
+    android:enabled="true"
+    android:icon="@drawable/ic_quran"
+    android:iconTint="@color/black"
+    android:title="@string/quran_txt"
+    />
+
+    <item android:id="@+id/btn_hadith"
+        android:enabled="true"
+        android:icon="@drawable/ic_hadith"
+        android:iconTint="@color/black"
+        android:title="@string/hadith_txt"
+        />
+
+    <item android:id="@+id/btn_sebha"
+        android:enabled="true"
+        android:icon="@drawable/ic_sebha"
+        android:iconTint="@color/black"
+        android:title="@string/sehba_txt"
+        />
+
+    <item android:id="@+id/btn_radio"
+        android:enabled="true"
+        android:icon="@drawable/ic_radio"
+        android:iconTint="@color/black"
+        android:title="@string/radio_txt"
+        />
+
+    <item android:id="@+id/btn_time"
+        android:enabled="true"
+        android:icon="@drawable/ic_time"
+        android:iconTint="@color/black"
+        android:title="@string/time_txt"
+        />
+
+</menu>

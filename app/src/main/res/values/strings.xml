@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="roses_icon">roses icon</string>
+    <string name="quran_txt">Quran</string>
+    <string name="hadith_txt">Hadith</string>
+    <string name="sehba_txt">Sehba</string>
+    <string name="radio_txt">Radio</string>
+    <string name="time_txt">Time</string>
+</resources>
