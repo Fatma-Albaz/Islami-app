@@ -31,7 +31,7 @@ class QuranFragment : Fragment() {
         binding.suraRecyclerView.layoutManager = LinearLayoutManager(context,LinearLayoutManager.VERTICAL,false)
         binding.suraRecyclerView.adapter = QuranAdapter(SuraRepository.generateSuraList(),{
             selectedSura ->
-            var intent = Intent (context, SuraDetailsActivity::class.java)
+            val intent = Intent (context, SuraDetailsActivity::class.java)
             intent.putExtra(Constants.SURA_DETAILS,selectedSura)
             startActivity(intent)
         })

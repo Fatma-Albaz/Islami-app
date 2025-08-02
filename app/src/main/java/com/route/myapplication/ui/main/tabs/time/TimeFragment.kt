@@ -5,7 +5,6 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.route.myapplication.R
 import com.route.myapplication.databinding.FragmentTimeBinding
 
 class TimeFragment : Fragment() {
