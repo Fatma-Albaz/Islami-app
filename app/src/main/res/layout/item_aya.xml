@@ -12,7 +12,7 @@
         android:id="@+id/aya_number_frame"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/ic_gold_aya_nubmer_frame"
+        android:src="@drawable/ic_gold_aya_number_frame"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toStartOf="@id/aya_content_Tv"
         app:layout_constraintTop_toTopOf="@id/aya_content_Tv"
