@@ -7,7 +7,7 @@
     >
 <androidx.appcompat.widget.AppCompatImageView
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:src="@drawable/ic_mosque_style2"
     android:scaleType="center"
     app:layout_constraintTop_toTopOf="parent"

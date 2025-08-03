@@ -5,7 +5,9 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.route.myapplication.R
 import com.route.myapplication.databinding.ActivityMainBinding
+import com.route.myapplication.ui.main.tabs.hadith.HadithFragment
 import com.route.myapplication.ui.main.tabs.quran.QuranFragment
+import com.route.myapplication.ui.main.tabs.sebha.SebhaFragment
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
@@ -27,10 +29,12 @@ class MainActivity : AppCompatActivity() {
                 }
 
                 R.id.btn_hadith -> {
+                    showFragment(HadithFragment())
                     true
                 }
 
                 R.id.btn_sebha -> {
+                    showFragment(SebhaFragment())
                     true
                 }
 
