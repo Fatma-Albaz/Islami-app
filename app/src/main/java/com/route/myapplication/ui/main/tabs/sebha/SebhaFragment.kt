@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.route.myapplication.databinding.FragmentSebhaBinding
 import com.route.myapplication.repository.SebhaRepository
+import com.route.myapplication.utils.ImageRotation
 
 class SebhaFragment:Fragment() {
     private lateinit var binding: FragmentSebhaBinding
@@ -40,6 +41,11 @@ class SebhaFragment:Fragment() {
                 .rotation(it.rotation + 11f)
                 .setDuration(300)
                 .start()
+            binding.sebhaTop.animate()
+                .rotation(binding.sebhaTop.rotation + 11f)
+                .setDuration(300)
+                .start()
+            ImageRotation.startOrbitAnimation(it,binding.sebhaTop,-80f+ it.rotation)
             if (tasbehNumber% 33 == 0){
                 displayedTasbehIndex++
                 if (displayedTasbehIndex>=sebhaList.size){
